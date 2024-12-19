@@ -13,7 +13,7 @@
         width: inherit;
         background: white;
         position: absolute;
-        top: 1.5rem;   
+        top: 3.5rem;   
     }
 
     header nav ul {
@@ -67,9 +67,8 @@
     #home {
         flex-direction: column-reverse;
         gap: 2rem;
-        justify-content: start;
-        gap: 2rem;
-        height: fit-content;
+        justify-content: center;
+        height: 100vh;
     }
 
     .home_text {
@@ -82,7 +81,7 @@
 
 
     .home_text h1{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     .br {
@@ -90,7 +89,7 @@
     }
 
     .shadow {
-        width: 12rem; 
+        width: 2rem; 
         position: absolute;
         bottom: 0;
         animation: shadow 2s linear infinite;
@@ -107,24 +106,23 @@
 
     .home_pics {
         height: 4rem;
-        min-height: 17rem;
-        margin-top: 4rem;
+        min-height: 20rem;
     }
 
 
     @keyframes  homepic{
-        0%{width: 15rem;}
-        25%{width: 14rem;}
-        50%{width: 13rem;}
-        75%{width: 14rem;}
-        100%{width: 15rem;}
+        0%{width: 18rem;}
+        25%{width: 19rem;}
+        50%{width: 20rem;}
+        75%{width: 19rem;}
+        100%{width: 18rem;}
     }
 
     /* styling about section */
     #about {
-        gap: 4rem;
-        justify-content: start;
-        min-height: fit-content;
+        gap: 10rem;
+        justify-content: center;
+        min-height: 100vh;
     }
 
     .ab_img {
@@ -139,7 +137,7 @@
 
     .about_images p {
         width: var(--wfull);
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     /* styling skills section */
@@ -189,7 +187,7 @@
     #contact {
         gap: 4rem;
         justify-content: start;
-        height: fit-content;
+        height: 100vh;
     }
     
     form {
