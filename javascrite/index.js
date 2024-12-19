@@ -51,26 +51,9 @@ $(document).ready(function () {
             $('.cover').hide();
         })
 
-        $("form input").touchstart(function () {
-            $('.Sorry_sms').show();
-        })
-    
-        $("form input").touchend(function () {
-            $('.Sorry_sms').hide();
-        })
-    
-        $("form textarea").touchstart(function () {
-            $('.Sorry_sms').show();
-        })
-    
-        $("form textarea").touchend(function () {
-            $('.Sorry_sms').hide();
-        })
-
-
     }
 
-    $("form input").mouseenter(function () {
+    $("form input").click(function () {
         $('.Sorry_sms').show();
     })
 
@@ -78,11 +61,11 @@ $(document).ready(function () {
         $('.Sorry_sms').hide();
     })
 
-    $("form textarea").mouseenter(function () {
+    $("form textarea").click(function () {
         $('.Sorry_sms').show();
     })
 
-    $("form textarea").mouseleave(function () {
+    $("form textarea").click(function () {
         $('.Sorry_sms').hide();
     })
 
