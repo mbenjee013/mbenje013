@@ -1,0 +1,116 @@
+@media (max-width: 481px) {
+
+    #home {
+        justify-content: start;
+        gap: 2rem;
+        height: fit-content;
+    }
+
+    .shadow {
+        display: block;
+    }
+
+    .shadow {
+        width: 12rem; 
+        position: absolute;
+        bottom: 0;
+        animation: shadow 2s linear infinite;
+    }
+    
+    
+    @keyframes  shadow{
+        0%{width: 5rem;}
+        25%{width: 6rem;}
+        50%{width: 7rem;}
+        75%{width: 6rem;}
+        100%{width: 5rem;}
+    }
+
+    .home_pics {
+        height: 4rem;
+        min-height: 17rem;
+        margin-top: 4rem;
+    }
+
+    .pic {
+        width: 30rem;
+        animation: homepic 2s linear infinite;
+    }
+
+    
+    #about {
+        justify-content: start;
+        min-height: fit-content;
+    }
+
+    /* styling skills section */
+    #skills {
+        justify-content: start;
+        align-items: start;
+    }
+    
+    .skills_container {
+        width: var(--wfull);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #skills button {
+        left: 34%;
+    }
+
+    /* styling project */
+    #projects {
+        min-height: fit-content;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .all_pro_container {
+        flex-direction: column;
+    }
+
+    .project_container {
+        flex-direction: column;
+        width: var(--wfull);
+    }
+
+    .project1 {
+        width: var(--wfull);
+    }
+
+    .project_details {
+        border-radius: 6px;
+        margin-top: 0;
+    }
+
+    .project1 h2 {
+        font-size: 1rem;
+    }
+
+    /* stylig contact section */
+
+    #contact {
+        height: fit-content;
+        justify-content: start;
+        align-items: start;
+    }
+
+    
+    form {
+        width: 100%;
+    }  
+    
+    .email_subject {
+        gap: 1rem;
+    }
+    
+    .email_subject input {
+        width: 100%;
+ 
+    }
+
+    .email_subject {
+        flex-direction: column;
+    }
+      
+}
