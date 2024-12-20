@@ -647,7 +647,7 @@ header nav ul li:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
