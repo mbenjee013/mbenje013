@@ -718,10 +718,6 @@ form {
     border: 1.9px solid var(--imptext);
 }
 
-.message textarea:hover {
-    box-shadow: 1px 1px 5px rgba(76, 0, 130, 0.451);
-}
-
 .send_to_email {
     color: white;
     text-transform: capitalize;
@@ -732,6 +728,7 @@ form {
     animation: contact 1.5s linear infinite;
     width: 8rem;
     border: none;
+    background: #45a3f2;
 }
 
 .open {
