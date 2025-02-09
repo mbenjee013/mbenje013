@@ -23,8 +23,8 @@ html {
 
 :root {
     --background: #fffcfc;
-    --imptext: #4781f0;
-    --action: #45a3f2;
+    --imptext: #45a3f2;
+    --action: #4781f0;
     --text: #101010;
     --hfull: 100vh;
     --wfull: 100%;
@@ -163,7 +163,7 @@ header nav ul li:hover {
 .home_text a:hover {
     background: #7951b1;
 }
-
+/*
 @keyframes  contact {
     0%{background: var(--imptext);}
     10%{background: #6935b1;}
@@ -176,7 +176,7 @@ header nav ul li:hover {
     80%{background: #6f42ae;}
     90%{background: #6935b1;}
     100%{background: var(--imptext);}
-}
+} */
 
 .home_pics {
     width: 50%;
