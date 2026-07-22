@@ -5,26 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npn/quill@2.0.3/dist/quill.snow.css">
+    <link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css" rel="stylesheet"/>
 
 </head>
 <body>
-    <div name="business_summary" id="editor" contenteditable="true"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+
+
+<!-- Create the toolbar container -->
+<div id="toolbar">
+  <button class="ql-bold">Bold</button>
+  <button class="ql-italic">Italic</button>
+</div>
+
+<!-- Create the editor container -->
+<div id="editor">
+  <p>Hello World!</p>
+  <p>Some initial <strong>bold</strong> text</p>
+  <p><br /></p>
+</div>
+
+<!-- Include the Quill library -->
+<script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js"></script>
+
+<!-- Initialize Quill editor -->
 <script>
-    const toolBarOptions = [
-        ['bold', 'italic'],
-        ['link'], 
-        [{'header': [1,2,3,4,5,6,false]}],
-        [{'list': 'ordered'}, {'list': 'bullet'}, {'list': 'check'}]
-    ]
-
-    const quill = new Quill("#business_summary", {
-        modules: {
-            toolBar: toolBarOptions
-        }, 
-        theme: 'snow'
-    })
+  const quill = new Quill("#editor", {
+    theme: "snow",
+  });
 </script>
+
 </body>
 </html>
